@@ -1,0 +1,116 @@
+{
+  "Fabrics": [
+    {
+      "imgUrl": "assets/photoTypesFabric/rozalin.jpg",
+      "name": "روزالين"
+    },
+    {
+      "imgUrl": "assets/photoTypesFabric/krs.jpg",
+      "name": "كريب"
+    },
+    {
+      "imgUrl": "assets/photoTypesFabric/كتان.jpg",
+      "name": "كتان"
+    },
+    {
+      "imgUrl": "assets/photoTypesFabric/cy.jpg",
+      "name": "سي واي"
+    },
+    {
+      "imgUrl": "assets/photoTypesFabric/ang.jpg",
+      "name": "انجيليكا"
+    },
+    {
+      "imgUrl": "assets/photoTypesFabric/sphm.jpg",
+      "name": "sph"
+    },
+    {
+      "imgUrl": "assets/photoTypesFabric/سوفت.jpg",
+      "name": "سوفت"
+    },
+    {
+      "imgUrl": "assets/photoTypesFabric/ss.jpg",
+      "name": "ستان صالونه"
+    },
+    {
+      "imgUrl": "assets/photoTypesFabric/ssar.jpg",
+      "name": "ستان ارماني"
+    },
+    {
+      "imgUrl": "assets/photoTypesFabric/ستانتركي.jpg",
+      "name": "ستان تركي"
+    },
+    {
+      "imgUrl": "assets/photoTypesFabric/skopa.jpg",
+      "name": "سكوبا"
+    },
+    {
+      "imgUrl": "assets/photoTypesFabric/تل.jpg",
+      "name": "تل وبطانه"
+    },
+    {
+      "imgUrl": "assets/photoTypesFabric/شيفون.jpg",
+      "name": "شيفون"
+    },
+    {
+      "imgUrl": "assets/photoTypesFabric/slezar.jpg",
+      "name": "ستان ليزر"
+    },
+    {
+      "imgUrl": "assets/photoTypesFabric/كافيار.jpg",
+      "name": "كافيار"
+    },
+    {
+      "imgUrl": "assets/photoTypesFabric/handm.jpg",
+      "name": "هاند ميد"
+    },
+    {
+      "imgUrl": "assets/photoTypesFabric/جوبير.jpg",
+      "name": "جوبير"
+    },
+    {
+      "imgUrl": "assets/photoTypesFabric/shm.jpg",
+      "name": "مطرز"
+    },
+    {
+      "imgUrl": "assets/photoTypesFabric/اقطان.jpg",
+      "name": "قطن"
+    },
+    {
+      "imgUrl": "assets/photoTypesFabric/عبايهساده.jpg",
+      "name": "عبايات ساده"
+    },
+    {
+      "imgUrl": "assets/photoTypesFabric/عبايات.jpg",
+      "name": "عبايات مشغوله"
+    },
+    {
+      "imgUrl": "assets/photoTypesFabric/بوبلين.jpg",
+      "name": "بوبلين"
+    },
+    {
+      "imgUrl": "assets/photoTypesFabric/كوريشه.jpg",
+      "name": "كوريشه"
+    },
+    {
+      "imgUrl": "assets/photoTypesFabric/مقلم.jpg",
+      "name": "مقلم"
+    },
+    {
+      "imgUrl": "assets/photoTypesFabric/كاروهات.jpg",
+      "name": "كاروهات"
+    },
+    {
+      "imgUrl": "assets/photoTypesFabric/منقط.jpg",
+      "name": "منقط"
+    },
+    {
+      "imgUrl": "assets/photoTypesFabric/تايجر.jpg",
+      "name": "تايجر"
+    },
+    {
+      "imgUrl": "assets/photoTypesFabric/بليسيه.jpg",
+      "name": "بليسيه"
+    }
+  ]
+}

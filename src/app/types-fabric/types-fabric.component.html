@@ -1,0 +1,55 @@
+<div class="flex justify-center">
+  <div class="text-black mt-8 w-3/4">
+    <div class="relative">
+      <input
+        type="text"
+        [(ngModel)]="searchValue"
+        (input)="filterItems()"
+        class="w-full text-right text-lg pl-10 pr-4 py-2 rounded-full focus:outline-none focus:ring focus:border-blue-300"
+        placeholder="ابحث علي نوع قماش"
+      />
+
+      <fa-icon
+        class="absolute inset-y-0 pl-3 flex items-center"
+        [icon]="faSearch"
+      ></fa-icon>
+    </div>
+  </div>
+</div>
+<div
+  class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-8 container mx-auto my-8"
+>
+  <div
+    *ngFor="let Fabric of filteredItems"
+    class="h-96 grid grid-rows-6 mx-8 sm:mx-0 bg-sky-900 rounded-3xl cursor-pointer overflow-hidden"
+  >
+    <div
+      [ngStyle]="{ 'background-image': 'url(' + Fabric.imgUrl + ')' }"
+      class="bg-cover bg-center row-span-5 relative rounded-3xl hover:brightness-50 transform transition duration-300 hover:scale-110 hover:rotate-1"
+    >
+      <img
+        src="assets\logo\QueenPhoto.jpg"
+        alt=""
+        class="absolute top-0 right-0 w-1/5 sm:w-1/4 rounded-tr-3xl"
+      />
+    </div>
+    <div class="flex justify-evenly items-center text-3xl text-slate-100">
+      <p class="text-blue-400 underline-offset-4 underline text-lg">
+        شاهد المزيد
+      </p>
+      <p class="font-bold">{{ Fabric.name }}</p>
+    </div>
+    <!-- <button >جميع التصنيفات</button> -->
+  </div>
+</div>
+
+<div
+  *ngIf="filteredItems.length === 0"
+  class="flex justify-center items-center h-52 font-bold text-sky-100 text-2xl text-center"
+>
+  <div class="max-w-sm">
+    <p>
+      غير متاح حاليا هذه الفئه من الأقمشه سيتم توفيرها في اقرب وقت ان شاء الله
+    </p>
+  </div>
+</div>
